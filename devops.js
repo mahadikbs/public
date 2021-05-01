@@ -1,9 +1,10 @@
 const express = require('express')
+
 const app = express()
 const port = 5010
 
 app.get('/', (req, res) => {
-  res.send('This one is really automated! First try')
+  res.send('Hello! This one is really automated! First try')
 })
 
 app.listen(port, () => {
