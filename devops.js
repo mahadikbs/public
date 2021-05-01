@@ -4,7 +4,7 @@ const app = express()
 const port = 5010
 
 app.get('/', (req, res) => {
-  res.send('Hello folks! This one is really automated! First try')
+  res.send('Hello chaps! This one is really automated! First try')
 })
 
 app.listen(port, () => {
